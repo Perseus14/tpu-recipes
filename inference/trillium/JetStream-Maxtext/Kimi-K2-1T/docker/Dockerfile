@@ -53,7 +53,7 @@ RUN git clone https://github.com/AI-Hypercomputer/JetStream.git && \
     cd maxtext && git checkout 6b1e0ef && cd .. && \
     git clone https://github.com/google/aqt.git && \
     cd aqt && git checkout 28504f5 && cd .. && \
-    git clone https://github.com/AI-Hypercomputer/tpu-recipes.git && \
+    git clone https://github.com/Perseus14/tpu-recipes.git && \
     cd tpu-recipes && git checkout rish-kimi-k2 && cd ..
 
 RUN mkdir /convert
