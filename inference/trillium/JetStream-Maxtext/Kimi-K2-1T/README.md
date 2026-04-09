@@ -1,4 +1,4 @@
-# DeepSeek R1/V3 Multi-host Inference on TPU v6e with JetStream, MaxText and Pathways on Cloud with GKE Cluster
+# Kimi-K2 Multi-host Inference on TPU v6e with JetStream, MaxText and Pathways on Cloud with GKE Cluster
 
 This recipe outlines the steps to benchmark [DeepSeek-V3](https://huggingface.co/deepseek-ai/DeepSeek-V3) or [DeepSeek-R1](https://huggingface.co/deepseek-ai/DeepSeek-R1) 671B model using [JetStream](https://github.com/AI-Hypercomputer/JetStream/tree/main) \+ [MaxText](https://github.com/AI-Hypercomputer/maxtext) inference engine deployed on a GKE cluster with multi-host [TPU v6e slices](https://cloud.google.com/kubernetes-engine) utilizing [Pathways on Cloud](https://cloud.google.com/ai-hypercomputer/docs/workloads/pathways-on-cloud/pathways-intro).
 
