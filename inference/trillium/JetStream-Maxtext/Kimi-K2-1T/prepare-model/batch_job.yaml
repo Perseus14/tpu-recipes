@@ -51,12 +51,12 @@ allocationPolicy:
     - policy:
         machineType: ${CLUSTER_CKPT_NODE_MACHINE_TYPE}
         bootDisk:
-          type: pd-ssd
+          type: hyperdisk-balanced
           sizeGb: 500
         disks:
           newDisk:
             sizeGb: ${CLUSTER_CKPT_NODE_DISK_SIZE}
-            type: pd-ssd
+            type: hyperdisk-balanced
           deviceName: persist
 logsPolicy:
   destination: CLOUD_LOGGING
